@@ -1,0 +1,17 @@
+plugin:
+    name: 'kubamarkiewicz.apiindex::lang.plugin.name'
+    description: 'kubamarkiewicz.apiindex::lang.plugin.description'
+    author: 'Kuba Markiewicz'
+    icon: oc-icon-globe
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'API Index'
+        url: ../api
+        icon: icon-globe
+        permissions:
+            - access_api
+permissions:
+    access_api:
+        tab: 'kubamarkiewicz.apiindex::lang.permissions.access_api'
+        label: 'kubamarkiewicz.apiindex::lang.permissions.access_api'
